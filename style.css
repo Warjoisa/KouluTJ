@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,700&display=swap');
+
+        /* Perus tyylit */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; /* Elementit asettuvat pystysuoraan */
+            height: 100vh;
+            width: 100vw; /* Varmistetaan, että leveyttä ei ole liikaa */
+            background: linear-gradient(4deg, #03315c, #004572, #006ea1);
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0;
+            font-family: 'Open Sans', sans-serif;
+            text-align: center; /* Teksti keskelle */
+            overflow: hidden; /* Estetään skrollaaminen */
+        }
+
+        p {
+            font-size: 6vw; /* Fonttikoko suhteutettu näytön kokoon */
+            color: #fff;
+            margin: 0;
+        }
+
+        img {
+            width: 25vw; /* Kuvan leveys suhteutettu näytön kokoon */
+            margin-top: 20px; /* Väli kuvaan ja tekstiin */
+        }
+
+        /* Mobiililaitteiden pienemmät säädöt */
+        @media (max-width: 600px) {
+            p {
+                font-size: 8vw; /* Pienempi fonttikoko mobiilissa */
+            }
+            img {
+                width: 50vw; /* Kuvan koko pienenee mobiililaitteilla */
+            }
+        }
