@@ -1,7 +1,7 @@
 ---
 name: Kettuile Devaajalle
 about: Löysitkö bugin? Korjaataas!
-title: ONGELMA
+title: ''
 labels: bug, help wanted
 assignees: Warjoisa
 
