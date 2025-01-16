@@ -5,35 +5,35 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            flex-direction: column; /* Elementit asettuvat pystysuoraan */
+            flex-direction: column;
             height: 100vh;
-            width: 100vw; /* Varmistetaan, että leveyttä ei ole liikaa */
+            width: 100vw;
             background: linear-gradient(4deg, #03315c, #004572, #006ea1);
             background-size: cover;
             background-repeat: no-repeat;
             margin: 0;
             font-family: 'Open Sans', sans-serif;
-            text-align: center; /* Teksti keskelle */
-            overflow: hidden; /* Estetään skrollaaminen */
+            text-align: center;
+            overflow: hidden;
         }
 
         p {
-            font-size: 6vw; /* Fonttikoko suhteutettu näytön kokoon */
+            font-size: 6vw;
             color: #fff;
             margin: 0;
         }
 
         img {
-            width: 25vw; /* Kuvan leveys suhteutettu näytön kokoon */
-            margin-top: 20px; /* Väli kuvaan ja tekstiin */
+            width: 25vw;
+            margin-top: 20px;
         }
 
-        /* Mobiililaitteiden pienemmät säädöt */
+        
         @media (max-width: 600px) {
             p {
-                font-size: 8vw; /* Pienempi fonttikoko mobiilissa */
+                font-size: 8vw;
             }
             img {
-                width: 50vw; /* Kuvan koko pienenee mobiililaitteilla */
+                width: 50vw;
             }
         }
