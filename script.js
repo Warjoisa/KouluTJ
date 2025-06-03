@@ -1,6 +1,6 @@
 function calculateDaysLeft() {
-    const startDate = new Date('2024-08-08');
-    const endDate = new Date('2025-05-31');
+    const startDate = new Date('2025-08-07');
+    const endDate = new Date('2026-05-30');
     const today = new Date();
     const todayMidnight = new Date(today.getFullYear(), today.getMonth(), today.getDate());
 
